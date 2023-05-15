@@ -1,6 +1,5 @@
 {
-  "name": "10-prisma",
-  "//type": "module --remove // and this comment to run js file directly",
+  "name": "12-websec",
   "version": "0.1.0",
   "private": true,
   "prisma": {
@@ -13,16 +12,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@prisma/client": "^4.13.0",
-    "@types/node": "20.1.0",
+    "@prisma/client": "^4.14.0",
+    "@types/node": "20.1.4",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
-    "next": "13.4.1",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "next": "13.4.2",
+    "next-auth": "^4.22.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "prisma": "^4.13.0"
+    "prisma": "^4.14.0"
   }
 }

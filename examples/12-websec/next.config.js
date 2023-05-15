@@ -3,7 +3,6 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-};
+}
 
-//export default nextConfig;
-module.exports = nextConfig;
+module.exports = nextConfig
